@@ -1,2 +1,27 @@
 # READme-Generator
-Quickly and easily create a README file by using this command-line application
+
+## Description
+
+(description text)
+
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
+
+## Installation
+
+(installation text)
+
+## Usage
+
+## License
+
+## Contributing
+
+## Tests
+
+## Questions
