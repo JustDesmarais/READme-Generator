@@ -69,6 +69,11 @@ function init() {
         message: questions[7],
         name: 'email',
         },
+        {
+        type: 'input', 
+        message: 'Please choose one of the following license options: \nGNU AGPLv3    GNU GPLv3    GNU LGPLv3 \nMozilla Public License 2.0    Apache License 2.0\nMIT License    Boost Software License 1.0    The Unlicense',
+        name: 'license',
+        }
                         
     ])
     .then((response) =>
