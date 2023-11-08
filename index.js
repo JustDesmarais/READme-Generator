@@ -18,7 +18,7 @@ const questions = [
 // A function to write README file
 function writeToFile(data) {
     fs.writeFile('./Sample-READme/READme.md', markdown.generateMarkdown(data), (err) =>
-      err ? console.error(err) : console.log('Successfully Written!'))
+      err ? console.error(err) : console.log('READme Successfully Written!'))
 }
 
 
@@ -70,7 +70,7 @@ function init() {
         },
         {
         type: 'input', 
-        message: 'Please choose one of the following license options: \nGNU AGPLv3    GNU GPLv3    GNU LGPLv3 \nMozilla Public License 2.0    Apache License 2.0\nMIT License    Boost Software License 1.0    The Unlicense',
+        message: 'Please choose one of the following license options: \nGNU AGPLv3    GNU GPLv3    GNU LGPLv3 \nMozilla Public License 2.0    Apache License 2.0 \nMIT License    Boost Software License 1.0    The Unlicense',
         name: 'license',
         }
                         

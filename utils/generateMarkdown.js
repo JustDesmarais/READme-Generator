@@ -94,31 +94,31 @@ function generateMarkdown(data) {
   * [Usage](#Usage)
   * [License](#License)
   * [Contributing](#Contributing)
-  * [Tests](#Tests)
+  * [Testing](#Testing)
   * [Questions](#Questions)
 
-  ## Installation
+  ## Installation <a id="Installation"></a>
 
   ${data.install}
 
-  ## Usage
+  ## Usage <a id="Usage"></a>
 
   ${data.usage}
 
-  ## License
+  ## License <a id="License"></a>
   ### [${data.license}](${renderLicenseLink(licenseChoice)})
 
   ${renderLicenseSection(licenseChoice)}
 
-  ## Contributing
+  ## Contributing <a id="Contributing"></a>
 
   ${data.contribute}
 
-  ## Tests
+  ## Testing <a id="Testing"></a>
 
   ${data.testing}
 
-  ## Questions
+  ## Questions <a id="Questions"></a>
 
   GitHub Profile: [${data.gitHub}](https://github.com/${data.gitHub})
 
